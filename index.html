@@ -3,16 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta lang="ru">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Резюме</title>
   <link rel="stylesheet" href="core.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header class="no-print">
     <div class="content header-content">
       <h1>Резюме</h1>
-      <a href="index_en.html" class="header-lang">English version</a>
+      <!-- <a href="index_en.html" class="header-lang">English version</a> -->
+      <a class="no-print header-lang link">Скачать PDF</a>
     </div>
   </header>
   <main>
@@ -53,13 +55,13 @@
           <dd>telegram (@lonelygriffin)</dd>
         </dl>
       </div>
-      <aside class="download">
-        <button>Распечатать</button>
-        <a>Скачать PDF</a>
-      </aside>
+      <!-- <aside class="download"> -->
+        <!-- <button onclick="window.print()" class="no-print">Распечатать</button> -->
+        <!-- <a class="no-print link">Скачать PDF</a> -->
+      <!-- </aside> -->
     </section>
     <div class="content">
-      <div class="separator-1"/>
+      <div class="separator-1"></div>
     </div>
     <section class="content">
       <h1 class="left-padding">Опыт работы</h1>
@@ -70,8 +72,8 @@
             <div class="date">
               <div class="date-period">Июль 2019 - Сейчас</div>
               <div class="date-exp">1 год 11 месяцев</div>
-              <div  class="date-bullet date-bullet-5"></div>
-              <div  class="date-line"></div>
+              <div  class="date-bullet no-print date-bullet-5"></div>
+              <div  class="date-line  no-print"></div>
             </div>
             <div/>
             <div class="left-padding">
@@ -113,8 +115,8 @@
             <div class="date">
               <div class="date-period">Июнь 2018 - Июль 2019</div>
               <div class="date-exp">1 год 2 месяца</div>
-              <div class="date-bullet date-bullet-4"></div>
-              <div class="date-line"></div>
+              <div class="date-bullet no-print date-bullet-4"></div>
+              <div class="date-line  no-print"></div>
             </div>
             <div/>
             <div class="left-padding">
@@ -140,8 +142,8 @@
             <div class="date">
               <div class="date-period">Февраль 2017 - Май 2018</div>
               <div class="date-exp">1 год 4 месяца</div>
-              <div  class="date-bullet date-bullet-3"></div>
-              <div  class="date-line"></div>
+              <div  class="date-bullet no-print date-bullet-3"></div>
+              <div  class="date-line  no-print"></div>
             </div>
             <div/>
             <div class="left-padding">
@@ -163,7 +165,7 @@
             <div class="date">
               <div class="date-period">Август 2014 — Июнь 2015</div>
               <div class="date-exp">11 месяцев</div>
-              <div  class="date-bullet date-bullet-2"></div>
+              <div  class="date-bullet no-print date-bullet-2"></div>
             </div>
             <div/>
             <div class="left-padding">
@@ -177,17 +179,17 @@
           </div>
         </li>
       </ul>
-      <div class="timeline-gradient"></div>
+      <div class="timeline-gradient no-print"></div>
     </section>
     <div class="content">
-      <div class="separator-2"/>
+      <div class="separator-2"></div>
     </div>
     <section class="content">
       <h1 class="left-padding">Личные проекты</h1>
       <ul class="left-padding">
         <li>
           <h3>Прототип детской игры-раскраски на Android (RN)</h3>
-            <p>Использую комбинацию байтовой текстуры и самописных шейдоров для реализации раскраски по сегментам (полигонам). Осторожно!!! Очень экспериментальный код. Дальнейшей поддержки не подлежит. <a href="https://github.com/LonelyGriffin/dotpick" target="_blank" class="link">Исходный код.</a></p>
+            <p>Использую комбинацию байтовой текстуры и самописных шейдоров для реализации раскраски по сегментам (полигонам). Осторожно!!! Очень экспериментальный код. Дальнейшей поддержки не подлежит. <a href="https://github.com/LonelyGriffin/dotpick" target="_blank" class="link no-print no-print">Исходный код.</a></p>
             <span class="techs">
               <span class="techs-title">Технологии: </span>
               <span>React Native, WebGL, Custom shaders, Treejs, Redux, FP</span>
@@ -195,7 +197,7 @@
         </li>
         <li>
           <h3>Markdown редактор на Android (RN)</h3>
-            <p>Тут я написал нативный плагин под Android и пытаюсь построить AST дерево для Markdown. Тесты в этом очень сильно помогают.<a href="https://github.com/LonelyGriffin/markdazer" target="_blank" class="link">Исходный код.</a></p>
+            <p>Тут я написал нативный плагин под Android и пытаюсь построить AST дерево для Markdown. Тесты в этом очень сильно помогают.<a href="https://github.com/LonelyGriffin/markdazer" target="_blank" class="link no-print">Исходный код.</a></p>
         
             <span class="techs">
               <span class="techs-title">Технологии: </span>
@@ -204,7 +206,7 @@
         </li>
         <li>
           <h3>Инструмент для мокинга api.</h3>
-            <p>Хочу сделать инструмент для удобного мокинга api на js. Из киллер фич - прокси снапшоты, GUI с интерактивной отладкой мок сервера, поддержка websocket. <a href="https://github.com/LonelyGriffin/apate" target="_blank" class="link">Исходный код.</a></p>
+            <p>Хочу сделать инструмент для удобного мокинга api на js. Из киллер фич - прокси снапшоты, GUI с интерактивной отладкой мок сервера, поддержка websocket. <a href="https://github.com/LonelyGriffin/apate" target="_blank" class="link no-print">Исходный код.</a></p>
             <span class="techs">
               <span class="techs-title">Технологии: </span>
               <span>React Native, Java</span>
@@ -213,9 +215,9 @@
       </ul>
       </section>
   </main>
-  <footer>
+  <footer class="no-print">
     <div class="content footer-content">
-      <span>
+      <span class="for-align">
         <p>Сделано за несколько часов, специально для:</p>
         <p>Align Technology.</p>
       </span>
@@ -226,5 +228,4 @@
     </div>
   </footer>
 </body>
-<link rel="stylesheet" href="style.css">
 </html>
