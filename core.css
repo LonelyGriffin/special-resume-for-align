@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 100px 1fr auto;
+  background-color: #E3E3E3;
+}
+
+a {
+  text-decoration: none;
+  color: bl
+}
+
+header {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: #737373;
+  height: 100px;
+}
+
+main {
+  padding-top: 66px;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+footer {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: #737373;
+  height: 100px;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32.74px;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+dt {
+  font-weight: 700;
+  float: left;
+  margin-right: 8px;
+}
+
+.key-info-block {
+  margin: 0;
+  margin-top: 18px;
+}
+
+.header-content {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  position: relative;
+  width: 1200px;
+  margin: auto;
+}
+
+.download {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.left-padding {
+  margin-left: 380px;
+}
+
+.key-info {
+  min-height: 390px;
+}
+
+.photo {
+  width: 320px;
+  height: 390px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.company {
+  position: relative;
+  margin-bottom: 48px;
+}
+
+
+.date {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+ul {
+  list-style: none;
+}
+
+.features {
+  list-style: disc;
+  margin-left: 32px;
+} 
+
+.techs {
+  color: #737373;
+  font-size: 14px;
+}
+
+.techs-title {
+  font-weight: 700;
+}
+
+.date-line {
+  position: absolute;
+  left: 250px;
+  top: 48px;
+  width: 4px;
+  height: calc(100% + 48px);
+  background-color: #737373;
+}
+
+.date-period, .date-exp {
+  position: relative;
+  top: 24px;
+  font-size: 16px;
+}
+
+.date-bullet {
+  position: absolute;
+  top: 36px;
+  left: 240px;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: #737373;
+}
+.date-bullet-5 {
+  transform: scale(1.66);
+}
+
+.date-bullet-4 {
+  transform: scale(1.5);
+}
+.date-bullet-3 {
+  transform: scale(1.33);
+}
+.date-bullet-2 {
+  transform: scale(1.166);
+}
+
+.link {
+  color: black;
+  font-size: 16px;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.link:hover {
+  opacity: 0.9;
+}
+
