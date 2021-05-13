@@ -261,7 +261,7 @@ ul {
   }
 }
 
-@media screen and (max-device-width: 1300px) {
+@media screen and (max-width: 1300px) {
   .content {
     width: 900px;
   }
@@ -279,7 +279,7 @@ ul {
   }
 }
 
-@media screen and (max-device-width: 950px) {
+@media screen and (max-width: 950px) {
   .content {
     width: calc(100% - 64px);
   }
