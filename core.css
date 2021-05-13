@@ -24,7 +24,7 @@ a {
 header {
   grid-row-start: 1;
   grid-row-end: 2;
-  background-color: #737373;
+  background-color: #4e4e4e;
   height: 100px;
 }
 
@@ -38,7 +38,7 @@ footer {
   margin-top: 36px;
   grid-row-start: 3;
   grid-row-end: 4;
-  background-color: #737373;
+  background-color: #4e4e4e;
   height: 100px;
 }
 
@@ -142,7 +142,7 @@ ul {
 } 
 
 .techs {
-  color: #737373;
+  color: #4e4e4e;
   font-size: 14px;
 }
 
@@ -156,7 +156,7 @@ ul {
   top: 48px;
   width: 4px;
   height: calc(100% + 48px);
-  background-color: #737373;
+  background-color: #4e4e4e;
 }
 
 .date-period, .date-exp {
@@ -172,7 +172,7 @@ ul {
   width: 24px;
   height: 24px;
   border-radius: 12px;
-  background-color: #737373;
+  background-color: #4e4e4e;
 }
 .date-bullet-5 {
   transform: scale(1.66);
@@ -220,7 +220,7 @@ ul {
 .separator-1 {
   width: 100%;
   height: 8px;
-  background: #737373;
+  background: #4e4e4e;
   background: linear-gradient(90deg, #525252 0%, rgba(82, 82, 82, 0) 115.35%);
   margin-bottom: 64px;
 }
@@ -229,7 +229,7 @@ ul {
   width: calc(100% - 380px);
   margin-left: 380px;
   height: 8px;
-  background: #737373;
+  background: #4e4e4e;
   background: linear-gradient(90deg, #525252 0%, rgba(82, 82, 82, 0) 115.35%);
   margin-bottom: 64px;
 }
